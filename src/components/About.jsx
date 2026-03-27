@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import portrait from '../assets/portrait.png'
 
 export default function About() {
   return (
@@ -17,7 +18,7 @@ export default function About() {
             className="md:col-span-4 aspect-square overflow-hidden bg-black border border-gray-900"
           >
             <img 
-              src="/src/assets/portrait.png" 
+              src={portrait} 
               alt="Portrait of Adam Korompai" 
               className="w-full h-full object-cover"
             />
